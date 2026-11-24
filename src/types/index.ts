@@ -2,6 +2,7 @@ export type {
   ContactInfo,
   FaqItem,
   FundAllocationItem,
+  GalleryPhoto,
   ImpactStat,
   LeadershipQuote,
   NavLink,

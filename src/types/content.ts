@@ -77,3 +77,11 @@ export interface ContactInfo {
   phones: string[];
   address: string;
 }
+
+export interface GalleryPhoto {
+  id: string;
+  src: string;
+  alt: string;
+  weight: number;
+  mobileAspect: string;
+}

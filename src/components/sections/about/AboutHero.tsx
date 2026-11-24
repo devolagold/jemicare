@@ -85,7 +85,7 @@ export function AboutHero() {
 
         <div className="about-photo mt-12 w-full overflow-hidden rounded-[20px] bg-white/5 sm:mt-16 sm:rounded-[28px] min-[1100px]:mt-[68px] min-[1100px]:rounded-[32px]">
           <img
-            src="/assets/about-hero.jpg"
+            src="/assets/about-hero.png"
             alt="JemiCare Foundation community and team members collaborating together"
             className="aspect-[849/455] h-full w-full object-cover object-center"
           />
