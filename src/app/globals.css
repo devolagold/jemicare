@@ -1,12 +1,48 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "SF Pro Rounded";
+  src:
+    local("SF Pro Rounded Medium"),
+    local("SFProRounded-Medium"),
+    url("https://cdn.jsdelivr.net/gh/sahibjotsaggu/San-Francisco-Pro-Fonts@master/SF-Pro-Rounded-Medium.otf")
+      format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Rounded";
+  src:
+    local("SF Pro Rounded Semibold"),
+    local("SFProRounded-Semibold"),
+    url("https://cdn.jsdelivr.net/gh/sahibjotsaggu/San-Francisco-Pro-Fonts@master/SF-Pro-Rounded-Semibold.otf")
+      format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro Rounded";
+  src:
+    local("SF Pro Rounded Bold"),
+    local("SFProRounded-Bold"),
+    url("https://cdn.jsdelivr.net/gh/sahibjotsaggu/San-Francisco-Pro-Fonts@master/SF-Pro-Rounded-Bold.otf")
+      format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme inline {
   --color-brand-yellow: #edb01a;
   --color-brand-grey: #595959;
   --color-brand-grey-light: #d9d9d9;
   --color-brand-tint: #f9fafd;
 
-  --font-display: "SF Pro Rounded", "SF Pro Display", var(--font-inter), Inter, system-ui, sans-serif;
+  --font-display: "SF Pro Rounded", ui-rounded, "SF Pro Display", var(--font-inter), Inter, system-ui, sans-serif;
   --font-body: var(--font-inter), Inter, system-ui, sans-serif;
   --font-label: "Stack Sans Headline", var(--font-inter), Inter, system-ui, sans-serif;
   --font-notch: "Stack Sans Notch", var(--font-inter), Inter, system-ui, sans-serif;
