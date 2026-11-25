@@ -89,7 +89,7 @@ export function DonateCta() {
             chance at a better future.
           </p>
           <div className="cta-reveal mt-1">
-            <Button href="#" variant="black">
+            <Button href="/donate" variant="black">
               Make a donation{" "}
               <img
                 className="h-[12px] w-[14px]"

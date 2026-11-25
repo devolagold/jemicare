@@ -11,7 +11,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     image: "/assets/project-community.jpg",
     imageAlt:
       "Women gathering in their community through the Empower Widows for Resilience programme",
-    supportHref: "#donate",
+    supportHref: "/donate",
     learnMoreHref: "/#stories",
   },
   {
@@ -24,7 +24,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     image: "/assets/project-community.jpg",
     imageAlt:
       "Women entrepreneurs collaborating through the EmpowerHer Growth Mentorship Programme",
-    supportHref: "#donate",
+    supportHref: "/donate",
     learnMoreHref: "/#timeline",
   },
   {
@@ -37,7 +37,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     image: "/assets/project-community.jpg",
     imageAlt:
       "Community members preparing for future education and technology initiatives",
-    supportHref: "#donate",
+    supportHref: "/donate",
     learnMoreHref: "/about",
   },
 ];

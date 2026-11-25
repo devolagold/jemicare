@@ -94,7 +94,7 @@ export function Hero() {
             />
           </Button>
           <Button
-            href="#donate"
+            href="/donate"
             variant="white"
             className="w-full sm:w-auto"
           >

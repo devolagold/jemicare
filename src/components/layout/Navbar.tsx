@@ -54,11 +54,11 @@ export function Navbar() {
 
         <div className="flex items-center justify-end gap-2 sm:gap-[10px] min-[1100px]:flex-1">
           <div className="hidden items-center gap-[10px] sm:flex">
-            <Button href="/#involved" variant="ghost">
+            <Button href="/volunteer" variant="ghost">
               Get Involved{" "}
               <img src="/assets/arrow-badge.svg" alt="" />
             </Button>
-            <Button href="/#donate" variant="yellow" size="sm">
+            <Button href="/donate" variant="yellow" size="sm">
               Make a donation
             </Button>
           </div>
@@ -124,7 +124,7 @@ export function Navbar() {
           </ul>
           <div className="mt-4 flex flex-col gap-2.5 border-t border-white/10 pt-4 sm:hidden">
             <Button
-              href="/#involved"
+              href="/volunteer"
               variant="ghost"
               className="w-full border border-white/15"
               onClick={() => setMenuOpen(false)}
@@ -133,7 +133,7 @@ export function Navbar() {
               <img src="/assets/arrow-badge.svg" alt="" />
             </Button>
             <Button
-              href="/#donate"
+              href="/donate"
               variant="yellow"
               size="sm"
               className="w-full"

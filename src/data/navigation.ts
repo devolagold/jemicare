@@ -3,14 +3,17 @@ import type { NavLink, SocialLink } from "@/types";
 export const NAV_LINKS: NavLink[] = [
   { label: "About us", href: "/about" },
   { label: "Our Projects", href: "/projects" },
-  { label: "Volunteer", href: "/#involved" },
+  { label: "Volunteer", href: "/volunteer" },
   { label: "Media & Gallery", href: "/media" },
-  { label: "News", href: "/#news" },
+  { label: "News", href: "/news" },
   { label: "Contact us", href: "/contact" },
 ];
 
 export const FOOTER_LINKS: NavLink[] = [
   { label: "About Us", href: "/about" },
+  { label: "Partnerships", href: "/partnerships" },
+  { label: "Nominate a Widow", href: "/nominate-a-widow" },
+  { label: "Share a Testimony", href: "/share-your-testimony" },
   { label: "Our Impact", href: "/#stories" },
   { label: "Our Journey", href: "/#timeline" },
 ];

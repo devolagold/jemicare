@@ -79,7 +79,7 @@ export function Intro() {
               potential into progress.
             </p>
             <div className="intro-reveal w-full sm:w-auto">
-              <Button href="#donate" variant="white" className="w-full sm:w-auto">
+              <Button href="/donate" variant="white" className="w-full sm:w-auto">
                 Support our work{" "}
                 <img
                   className="h-[12px] w-[14px]"

@@ -73,7 +73,7 @@ export function GetInvolved() {
             </p>
           </div>
           <div className="involve-reveal w-full sm:w-auto">
-            <Button href="#donate" variant="black" className="w-full sm:w-auto">
+            <Button href="/volunteer" variant="black" className="w-full sm:w-auto">
               Get involved{" "}
               <img
                 className="h-[12px] w-[14px]"

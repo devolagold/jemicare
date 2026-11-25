@@ -85,3 +85,41 @@ export interface GalleryPhoto {
   weight: number;
   mobileAspect: string;
 }
+
+export interface NewsArticle {
+  slug: string;
+  date: string;
+  title: string;
+  excerpt: string;
+  image: string;
+  content: string[];
+}
+
+export interface SupportWayItem {
+  id: "individual" | "corporate" | "sponsorship";
+  title: string;
+  description: string;
+}
+
+export interface DonationImpactTier {
+  minAmount: number;
+  outcome: string;
+}
+
+export interface PartnerLogo {
+  name: string;
+  logo: string;
+}
+
+export interface NominationStep {
+  number: string;
+  id: "submit" | "evidence" | "review" | "support";
+  title: string;
+  description: string;
+}
+
+export interface TestimonyPermissionOption {
+  value: "public" | "private";
+  title: string;
+  description: string;
+}
