@@ -6,6 +6,7 @@ export type {
   GalleryPhoto,
   ImpactStat,
   LeadershipQuote,
+  NavDropdownItem,
   NavLink,
   NewsArticle,
   NominationStep,

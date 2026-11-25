@@ -58,7 +58,6 @@ export function TestimonyForm() {
   const [fileError, setFileError] = useState<string | null>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
-  const [referenceNumber, setReferenceNumber] = useState("");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const addFiles = (incomingList: FileList | null) => {
@@ -123,8 +122,6 @@ export function TestimonyForm() {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const randomCode = Math.floor(1000 + Math.random() * 9000);
-    setReferenceNumber(`JCF-TST-${randomCode}`);
     setModalOpen(true);
   };
 
@@ -564,7 +561,6 @@ export function TestimonyForm() {
 
       <TestimonySuccessModal
         isOpen={modalOpen}
-        referenceNumber={referenceNumber}
         onClose={handleCloseModal}
       />
     </>

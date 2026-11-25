@@ -52,7 +52,7 @@ export default async function NewsArticlePage({ params }: ArticlePageProps) {
 
   return (
     <>
-      <header className="overflow-hidden bg-black text-white">
+      <header className="relative bg-black text-white">
         <Navbar />
         <div className="mx-auto w-[min(820px,calc(100%-32px))] pt-10 pb-8 sm:w-[min(820px,calc(100%-48px))] sm:pt-14 sm:pb-12">
           <Link

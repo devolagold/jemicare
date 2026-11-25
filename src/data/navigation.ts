@@ -1,4 +1,4 @@
-import type { NavLink, SocialLink } from "@/types";
+import type { NavDropdownItem, NavLink, SocialLink } from "@/types";
 
 export const NAV_LINKS: NavLink[] = [
   { label: "About us", href: "/about" },
@@ -7,6 +7,27 @@ export const NAV_LINKS: NavLink[] = [
   { label: "Media & Gallery", href: "/media" },
   { label: "News", href: "/news" },
   { label: "Contact us", href: "/contact" },
+];
+
+export const GET_INVOLVED_LINKS: NavDropdownItem[] = [
+  {
+    label: "Partnerships",
+    description: "Collaborate with us to scale lasting impact",
+    href: "/partnerships",
+    icon: "partnerships",
+  },
+  {
+    label: "Nominate a Widow",
+    description: "Recommend a deserving widow for support",
+    href: "/nominate-a-widow",
+    icon: "nominate",
+  },
+  {
+    label: "Share Your Testimony",
+    description: "Tell your story and inspire others",
+    href: "/share-your-testimony",
+    icon: "testimony",
+  },
 ];
 
 export const FOOTER_LINKS: NavLink[] = [

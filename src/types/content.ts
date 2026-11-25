@@ -3,6 +3,13 @@ export interface NavLink {
   href: string;
 }
 
+export interface NavDropdownItem {
+  label: string;
+  description: string;
+  href: string;
+  icon: "partnerships" | "nominate" | "testimony";
+}
+
 export interface SocialLink {
   label: string;
   href: string;
