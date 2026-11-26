@@ -92,6 +92,7 @@ export function PartnersShowcase() {
   return (
     <section
       ref={containerRef}
+      id="partners"
       className="bg-white py-16 text-black sm:py-20 min-[1100px]:py-[96px]"
     >
       <div className="mx-auto flex w-[min(1200px,calc(100%-32px))] flex-col items-center text-center sm:w-[min(1200px,calc(100%-48px))]">

@@ -7,4 +7,7 @@ export { GrowthTimeline } from "./GrowthTimeline";
 export { Hero } from "./Hero";
 export { ImpactSection } from "./ImpactSection";
 export { Intro } from "./Intro";
+export { NominateHighlight } from "./NominateHighlight";
+export { PartnershipsHighlight } from "./PartnershipsHighlight";
+export { TestimonyHighlight } from "./TestimonyHighlight";
 export { Transparency } from "./Transparency";

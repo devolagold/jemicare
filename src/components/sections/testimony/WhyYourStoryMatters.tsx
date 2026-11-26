@@ -44,6 +44,7 @@ export function WhyYourStoryMatters() {
   return (
     <section
       ref={containerRef}
+      id="why-your-story-matters"
       className="bg-white py-16 text-black sm:py-20 min-[1100px]:py-[96px]"
     >
       <div className="mx-auto grid w-[min(1200px,calc(100%-32px))] grid-cols-1 items-center gap-10 sm:w-[min(1200px,calc(100%-48px))] sm:gap-12 min-[1100px]:grid-cols-[1fr_1fr] min-[1100px]:gap-[72px]">

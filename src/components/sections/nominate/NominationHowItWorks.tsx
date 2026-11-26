@@ -141,6 +141,7 @@ export function NominationHowItWorks() {
   return (
     <section
       ref={containerRef}
+      id="how-it-works"
       className="bg-white py-16 text-black sm:py-20 min-[1100px]:py-[96px]"
     >
       <div className="mx-auto w-[min(1200px,calc(100%-32px))] sm:w-[min(1200px,calc(100%-48px))]">

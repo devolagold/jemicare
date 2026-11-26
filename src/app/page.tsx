@@ -6,6 +6,9 @@ import {
   Hero,
   ImpactSection,
   Intro,
+  NominateHighlight,
+  PartnershipsHighlight,
+  TestimonyHighlight,
   Transparency,
 } from "@/components/sections/home";
 
@@ -16,9 +19,12 @@ export default function Home() {
       <main>
         <Intro />
         <GetInvolved />
+        <NominateHighlight />
         <Governance />
         <Transparency />
+        <PartnershipsHighlight />
         <ImpactSection />
+        <TestimonyHighlight />
         <FaqSection />
         <DonateCta />
       </main>
