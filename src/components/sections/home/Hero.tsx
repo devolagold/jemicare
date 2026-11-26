@@ -58,7 +58,7 @@ export function Hero() {
   return (
     <header
       ref={containerRef}
-      className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden bg-black min-[1100px]:block min-[1100px]:min-h-[1036px]"
+      className="relative flex min-h-[100svh] flex-col justify-between overflow-hidden bg-black"
     >
       <div className="absolute inset-0" aria-hidden="true">
         <img
@@ -66,21 +66,22 @@ export function Hero() {
           src="/assets/hero-bg.png"
           alt=""
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
       </div>
 
       <Navbar />
 
-      <div className="relative z-[2] mx-auto flex w-[min(1200px,calc(100%-32px))] flex-col gap-6 pt-24 pb-14 sm:w-[min(1200px,calc(100%-48px))] sm:gap-8 sm:pt-36 sm:pb-20 min-[1100px]:absolute min-[1100px]:left-1/2 min-[1100px]:top-[546px] min-[1100px]:-translate-x-1/2 min-[1100px]:gap-[46px] min-[1100px]:pt-0 min-[1100px]:pb-0">
-        <h1 className="hero-stagger text-grad max-w-[830px] font-display text-[36px] font-bold leading-[40px] tracking-[-0.02em] sm:text-[52px] sm:leading-[56px] min-[1100px]:text-[72px] min-[1100px]:leading-[68px]">
+      <div className="relative z-[2] mx-auto flex w-[min(1200px,calc(100%-32px))] flex-col gap-5 pt-16 pb-12 sm:w-[min(1200px,calc(100%-48px))] sm:gap-6 sm:pt-24 sm:pb-16 min-[1100px]:gap-7 min-[1100px]:pt-20 min-[1100px]:pb-[56px]">
+        <h1 className="hero-stagger text-grad max-w-[830px] font-display text-[36px] font-bold leading-[40px] tracking-[-0.02em] sm:text-[50px] sm:leading-[54px] min-[1100px]:text-[clamp(48px,4.5vw,66px)] min-[1100px]:leading-[1.03]">
           Empowering lives through education, technology, and opportunity.
         </h1>
-        <p className="hero-stagger max-w-[847px] text-[16px] leading-[24px] text-brand-grey-light sm:text-[18px] sm:leading-[26px] min-[1100px]:-mt-[10px] min-[1100px]:text-[20px] min-[1100px]:leading-[28px]">
+        <p className="hero-stagger max-w-[820px] text-[16px] leading-[24px] text-brand-grey-light sm:text-[18px] sm:leading-[26px] min-[1100px]:-mt-[6px] min-[1100px]:text-[19px] min-[1100px]:leading-[27px]">
           Across Nigeria, vulnerable communities face barriers to education,
           economic opportunity, and basic support. JemiCare Foundation works
           alongside them, providing the knowledge, skills, and resources to
           build resilient, self-sustaining futures.
         </p>
-        <div className="hero-stagger flex flex-col gap-[10px] sm:flex-row sm:flex-wrap">
+        <div className="hero-stagger mt-1 flex flex-col gap-[10px] sm:flex-row sm:flex-wrap">
           <Button
             href="/projects"
             variant="yellow"
